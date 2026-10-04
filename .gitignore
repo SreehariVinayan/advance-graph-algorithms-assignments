@@ -1,0 +1,84 @@
+```gitignore
+# Compiled binaries
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+a.out
+
+# Original datasets (license not verified)
+datasets/
+out/
+plots/
+results/
+Backup/
+
+# Build directories
+build/
+bin/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated benchmark outputs
+*.log
+*.tmp
+*.prof
+*.dat
+
+# Generated plots (uncomment if plots should not be versioned)
+# *.png
+# *.jpg
+# *.svg
+# *.pdf
+
+# Generated benchmark results (uncomment if CSVs should not be versioned)
+# results/*.csv
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Coverage and profiling
+coverage/
+*.gcda
+*.gcno
+*.gcov
